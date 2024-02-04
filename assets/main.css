@@ -1,0 +1,190 @@
+  body{
+    font-family: 'Nobile', sans-serif;
+    font-weight: 400;
+  }
+  h1,h2,h3{
+    font-weight: 700;
+  }
+  .hero{
+    position: relative;
+  }
+  .hero-image{ 
+    height: 90vh; 
+    width: 100%;
+    object-fit: cover;
+  }
+  .hero-description{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-button{
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .hero-button-more{
+    transform: translate(0%, -166%);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .font-small {
+    font-size: 0.8rem;
+  }
+  .rounded-5 {
+    border-radius: 30px !important;
+  }
+  #slider-1{
+      display: flex;
+  }
+  .reviewcard {
+    box-shadow: 10px 10px 87px -40px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    padding: 30px 50px;
+    font-family: sans-serif;
+    color: ;
+    font-weight: 400;
+    border-radius: 15px;
+    background: #fff;
+    width: 100%;
+    max-width: 600px;
+  }
+  .propicbox {
+      float: left;
+  }
+  .propic {
+      width: 50px;
+      border-radius: 50px;   
+  }
+  .reviewerbox {
+      margin: -7px 0 0 60px;
+  }
+  .review-title {
+      font-size: 16px;
+      line-height: 1.5em;
+      font-weight: 400;
+      color: #636972;
+      margin-bottom: 0;
+  }
+  .reviewername {
+      color: #39599a;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  a, a:visited, a:hover { 
+      text-decoration: none;
+  }
+  .reviewdate {
+      font-size: 14px;
+      line-height: 1em;
+      font-weight: 400;
+      color: #636972;
+      margin: -10px 0 0 0
+  }
+  .review {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .bottomText {
+    margin: 15px 0 15px;
+    font-size: 14px;
+    color: #636972;
+  }
+  .copyrightsleft {
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    text-align: left;
+    font-size: 12px;
+    color: #636972;
+    font-family: sans-serif;
+  }
+  .copyrightsleft {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  }
+  .copyrightsright {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  }
+  .valoration{
+    color: #dd4;
+    font-size: 17px;
+  }
+  .sticky-t {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky-b{
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+  }
+  .hero-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15vh;
+    color: #ffffff;
+    bottom: -1px;
+  }
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slider-with-products-image{
+    object-fit: cover;
+  }
+  .slide {
+    width: 100%; 
+    flex-shrink: 0;
+    display: flex;
+    height: 300px;
+  }
+  #prevBtn, #nextBtn{
+    display: none;
+  }
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: top 0.3s ease-in-out;
+  }
+  .header-up {
+    top: 0;
+    z-index: 1;
+  }
+  .header-down {
+    top: -100px;
+    z-index: 1;
+  }
+  .bg-transparent{
+    background-color: transparent;
+  }
